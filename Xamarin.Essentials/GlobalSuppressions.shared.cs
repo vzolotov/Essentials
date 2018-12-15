@@ -4,4 +4,6 @@
 // a specific target and scoped to a namespace, type, member, etc.
 
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "iOS is what we want.", Scope = "member", Target = "~P:Xamarin.Essentials.DevicePlatform.iOS")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE1006:Naming Styles", Justification = "macOS is what we want.", Scope = "member", Target = "~P:Xamarin.Essentials.DevicePlatform.macOS")]
 [assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.NamingRules", "SA1300:Element should begin with upper-case letter", Justification = "iOS is what we want.", Scope = "member", Target = "~P:Xamarin.Essentials.DevicePlatform.iOS")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("StyleCop.CSharp.NamingRules", "SA1300:Element should begin with upper-case letter", Justification = "macOS is what we want.", Scope = "member", Target = "~P:Xamarin.Essentials.DevicePlatform.macOS")]
